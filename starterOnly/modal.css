@@ -323,6 +323,8 @@ input[data-error]::after {
   left: 21%;
   top: 19%;
 }
+
+/* Icone croix pour fermer la modale */
 .close {
   position: absolute;
   right: 15px;
@@ -336,7 +338,7 @@ input[data-error]::after {
   border: none;
 }
 
-/* Icone croix pour fermer la modale */
+/* Message de validation */
 .valid{
   display: none;
 }
