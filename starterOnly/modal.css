@@ -237,7 +237,7 @@ input {
   border: 2px solid #e54858;
 }
 
-/* Messages de validation............................. */
+/* Messages d'erreur............................. */
 
 .txtError{
   font-size: 14px;

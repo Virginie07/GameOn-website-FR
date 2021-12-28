@@ -18,7 +18,7 @@ const btnClose = document.querySelector(".close");
  // selection du paragraphe "merci"
 const txtValid = document.getElementById("success");         
  
-// Sélection du formulaire
+// Sélection du contenu du formulaire
 const formContainer = document.querySelector(".formContainer"); 
 
 
@@ -41,7 +41,7 @@ function launchModal() {
   modalbg.style.display = "block";
 }
 
-// Fonction qui permet de cacher la modale derrière le reste en cas de validation
+// Fonction qui permet de cacher l'intégralité de la modale 
 function closeModal() {
   modalbg.style.display = "none";       
 }
