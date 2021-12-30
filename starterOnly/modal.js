@@ -89,13 +89,13 @@ function validate(event) {
   acceptedValid.style.display = "none";
 
   // Verification Prenom
-  if (firstName.value.length <= 2){               
+  if (firstName.value.match(/^[A-zéèê'-]{2,}$/)===null){               
     firstValid.style.display = "block";
     isValid = false;
   }
   
   // Verification Nom
-  if(lastName.value.length <= 2){                 
+  if(lastName.value.match(/^[A-zéèê'-]{2,}$/)===null){                 
     lastValid.style.display = "block";
     isValid = false;
   }
